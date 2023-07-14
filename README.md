@@ -46,3 +46,16 @@ The goal of the Customer Conversion Prediction project is to build a machine lea
 # **Project Aproach**:
 
 For this project, I utilized Jupyter Notebook as my integrated development environment (IDE) for programming in Python. Jupyter Notebook is a robust tool provided by Anaconda that is well-suited for implementing machine learning algorithms, performing data analytics and cleaning operations, and developing data science models.
+
+# **Explanation**
+
+This was the problem given to me as part of my final project in the Master Data Science course by GUVI.
+
+The data was loaded and preprocessed - cleaned.
+
+Data Visualization was done and Exploratory Data Analyis was done to take some meaningful insights.
+It was a highly imbalanced data with less than 13% of the data in the subscribed category.
+Data was balanced using SMOTE and Combined balancing techniques.
+Data was fitted in Logistic regression. The AUROC score was good. But the domain side of the data needed a decent F1 score to build a reliable model.
+Comparison and tuning of the models was done uisng Pycaret.
+Feature importances were analysed.
