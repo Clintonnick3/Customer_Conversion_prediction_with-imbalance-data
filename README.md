@@ -54,8 +54,11 @@ This was the problem given to me as part of my final project in the Master Data 
 The data was loaded and preprocessed - cleaned.
 
 Data Visualization was done and Exploratory Data Analyis was done to take some meaningful insights.
-It was a highly imbalanced data with less than 13% of the data in the subscribed category.
+
+It was a highly imbalanced data with less than 11% of the data in the subscribed category.
+
 Data was balanced using SMOTE and Combined balancing techniques.
+
 Data was fitted in Logistic regression. The AUROC score was good. But the domain side of the data needed a decent F1 score to build a reliable model.
-Comparison and tuning of the models was done uisng Pycaret.
-Feature importances were analysed.
+
+Feature importances were analysed for Decision Tree and XG-Boost classifiers.
