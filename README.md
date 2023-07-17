@@ -59,7 +59,7 @@ For this project, I utilized Jupyter Notebook as my integrated development envir
 
 + Data was balanced using SMOTE and Combined balancing techniques.
 
-+ Data was fitted in Logistic regression. The AUROC score was good. But the domain side of the data needed a decent F1 score to build a reliable model.
++ Data was fitted in Logistic regression. The domain side of the data needed a decent F1 score to build a reliable model.
 
 + Feature importances were analysed for Decision Tree and XG-Boost classifiers.
 
