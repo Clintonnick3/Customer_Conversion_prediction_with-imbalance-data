@@ -62,3 +62,35 @@ For this project, I utilized Jupyter Notebook as my integrated development envir
 + Data was fitted in Logistic regression. The AUROC score was good. But the domain side of the data needed a decent F1 score to build a reliable model.
 
 + Feature importances were analysed for Decision Tree and XG-Boost classifiers.
+
+# **About This Project**
+
+1 Encoding, We  have used Label encoding for ['Job','education_qual','marital'] and one hot encoding for ['call_type','mon','prev_outcome'].
+
+2 Models we used is Linear regression, Decision Tree classifier, K-Nearest Neighbours, XG-Boost and Random forest.
+
+3 Feature importance, used for Decision Tree Classifier and XG-Boost, we can see that most important feature for Decision tree classifier is Dur(duration) and call_type_unknown for XG-Boost classifier
+
+4 The model with Best value of f1_score is XG-Boost with a value of 0.58.
+
+# **Results**
+
++ Logistic Regression classification F1_score is 0.48
+
++ Decision tree classification F1_score is 0.54
+
++ K-Nearest Neighbour classification F1_score is 0.37
+
++ XG-Boost classification F1_score is 0.58
+
++ Random forest classification F1_Score is 0.56
+
+Hence XG-Boost is giving the good F1_Score of 0.58 Based on the results, we can see that the XG-Boost algorithm had the highest overall performance with an accuracy of 0.99 and an F1 score of 0.58.
+
+# **Conclusion**
+
+In conclusion, this project demonstrated how a classification model can be built to predict customer conversion for insurance. The data was cleaned, preprocessed, and visualized to gain insights into the data. Different algorithms were used to build the model, and XG-Boost classifier performed the best. The feature importance analysis provided valuable insights into the important features in predicting customer conversion. This model can be used by insurance companies to target potential customers who are likely to subscribe to their services.
+
+# **Future Work**
+
+In the future, the model can be further improved by using more advanced techniques such as hyperparameter tuning and ensemble methods. Additionally, new features can be added to the data to improve the performance of the model. The model can also be deployed as a web application to make it easily accessible to users.
