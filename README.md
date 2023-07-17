@@ -55,7 +55,7 @@ For this project, I utilized Jupyter Notebook as my integrated development envir
 
 + Data Visualization was done and Exploratory Data Analysis was done to take some meaningful insights.
 
-+ It was a highly imbalanced data with less than 11% of the data in the subscribed category.
++ It was a highly imbalanced data with 11% of the data in the subscribed category.
 
 + Data was balanced using SMOTE and Combined balancing techniques.
 
